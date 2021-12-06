@@ -1,0 +1,21 @@
+GET http://localhost:8001/
+
+###
+
+POST http://localhost:8001/tinder/cards
+Content-Type: application/json
+
+[
+    {
+        "name": "Elon Musk",
+        "imgUrl": "//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg/220px-Elon_Musk_Royal_Society_%28crop1%29.jpg"
+    },
+    {
+        "name": "Kate Winslet",
+        "imgUrl": "https://hips.hearstapps.com/elleuk.cdnds.net/17/36/1504776921-katewinslet.jpg?crop=0.496xw:0.990xh;0.225xw,0.0103xh&resize=640:*"
+    }
+]
+
+###
+
+GET http://localhost:8001/tinder/cards
